@@ -1,4 +1,4 @@
-﻿  Functions.cpp
-C:\Users\sevo9\OneDrive\ТУСУР\2 курс\4 семестр\ООП\Лабораторные работы\Лаборатоная работа №1\OOP_Lab1\OOP_Lab1\Functions.cpp(28,24): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\sevo9\OneDrive\ТУСУР\2 курс\4 семестр\ООП\Лабораторные работы\Лаборатоная работа №1\OOP_Lab1\OOP_Lab1\Functions.cpp(32,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+﻿  Dynamic Array.cpp
+C:\Users\sevo9\OneDrive\ТУСУР\2 курс\4 семестр\ООП\Лабораторные работы\Лаборатоная работа №1\OOP_Lab1\OOP_Lab1\Dynamic Array.cpp(23,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\sevo9\OneDrive\ТУСУР\2 курс\4 семестр\ООП\Лабораторные работы\Лаборатоная работа №1\OOP_Lab1\OOP_Lab1\Dynamic Array.cpp(39,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   OOP_Lab1.vcxproj -> C:\Users\sevo9\OneDrive\ТУСУР\2 курс\4 семестр\ООП\Лабораторные работы\Лаборатоная работа №1\OOP_Lab1\Debug\OOP_Lab1.exe

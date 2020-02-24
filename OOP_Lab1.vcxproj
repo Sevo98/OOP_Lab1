@@ -149,13 +149,17 @@
   <ItemGroup>
     <ClCompile Include="Algorithms and Debug.cpp" />
     <ClCompile Include="Arrays.cpp" />
+    <ClCompile Include="Dynamic Array.cpp" />
     <ClCompile Include="Functions.cpp" />
     <ClCompile Include="OOP_Lab1.cpp" />
+    <ClCompile Include="Аddresses and pointers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algorithms and Debug.h" />
     <ClInclude Include="Arrays.h" />
+    <ClInclude Include="Dynamic Array.h" />
     <ClInclude Include="Functions.h" />
+    <ClInclude Include="Аddresses and pointers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
