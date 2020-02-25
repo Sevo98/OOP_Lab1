@@ -15,3 +15,7 @@ void DArr6();
 void DArr7();
 
 void DArr8();
+
+int* ReadArray(int count);
+
+int CountPositiveValues(int* values, int count);

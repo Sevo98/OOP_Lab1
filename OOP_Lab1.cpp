@@ -208,32 +208,32 @@ int main()
 				{
 					DArr2();
 				} break;
-				/*
+				
 				case 3:
 				{
 					DArr3();
 				} break;
-
+				
 				case 4:
 				{
 					DArr4();
 				} break;
-
+				
 				case 5:
 				{
 					DArr5();
 				} break;
-
+				
 				case 6:
 				{
 					DArr6();
 				} break;
-
+				
 				case 7:
 				{
 					DArr7();
 				} break;
-
+				/*
 				case 8:
 				{
 					DArr8();
