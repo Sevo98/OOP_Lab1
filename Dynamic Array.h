@@ -19,3 +19,5 @@ void DArr8();
 int* ReadArray(int count);
 
 int CountPositiveValues(int* values, int count);
+
+int GetSizeArr();

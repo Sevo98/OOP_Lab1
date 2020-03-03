@@ -152,6 +152,7 @@
     <ClCompile Include="Dynamic Array.cpp" />
     <ClCompile Include="Functions.cpp" />
     <ClCompile Include="OOP_Lab1.cpp" />
+    <ClCompile Include="Test.cpp" />
     <ClCompile Include="Аddresses and pointers.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +160,7 @@
     <ClInclude Include="Arrays.h" />
     <ClInclude Include="Dynamic Array.h" />
     <ClInclude Include="Functions.h" />
+    <ClInclude Include="Test.h" />
     <ClInclude Include="Аddresses and pointers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

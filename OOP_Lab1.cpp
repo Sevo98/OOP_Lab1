@@ -4,6 +4,7 @@
 #include "Functions.h"
 #include "Аddresses and pointers.h"
 #include "Dynamic Array.h"
+#include "Test.h"
 using namespace std;
 
 int main()
@@ -18,11 +19,12 @@ int main()
 		cout << "4. Адреса и указатели" << endl;
 		cout << "5. Динамическая память" << endl;
 		cout << "0. Выход" << endl;
+		cout << "6. Тестовое задание" << endl;
 
 		cin >> number;
 		switch (number)
 		{
-		//Алгоритмы и отладка
+			//Алгоритмы и отладка
 		case 1:
 		{
 			while (true)
@@ -38,7 +40,9 @@ int main()
 					break;
 				case 2: Breakpoints2();
 					break;
+			
 				}
+				
 			}
 		}
 		break;
@@ -139,49 +143,50 @@ int main()
 
 				cin >> num;
 				switch (num)
-					{
-					case 1:
-					{
-						FirstTaskAdress();
-					} break;
+				{
+				case 1:
+				{
+					FirstTaskAdress();
+				} break;
 
-					case 2:
-					{
-						SecondTaskAdress();
-					} break;
+				case 2:
+				{
+					SecondTaskAdress();
+				} break;
 
-					case 3:
-					{
-						ThirdTaskAdress();
-					} break;
+				case 3:
+				{
+					ThirdTaskAdress();
+				} break;
 
-					case 4:
-					{
-						FourthTaskAdress();
-					} break;
+				case 4:
+				{
+					FourthTaskAdress();
+				} break;
 
-					case 5:
-					{
-						FiveTaskAdress();
-					} break;
+				case 5:
+				{
+					FiveTaskAdress();
+				} break;
 
-					case 6:
-					{
-						SixTaskAdress();
-					} break;
+				case 6:
+				{
+					SixTaskAdress();
+				} break;
 
-					case 7:
-					{
-						SevenTaskAdress();
-					} break;
+				case 7:
+				{
+					SevenTaskAdress();
+				} break;
 
-					case 8:
-					{
-						EightTaksAdress();
-					} break;
+				case 8:
+				{
+					EightTaksAdress();
+				} break;
 				}
 			}
 		} break;
+		//Динамический массив
 		case 5:
 		{
 			while (true)
@@ -208,39 +213,50 @@ int main()
 				{
 					DArr2();
 				} break;
-				
+
 				case 3:
 				{
 					DArr3();
 				} break;
-				
+
 				case 4:
 				{
 					DArr4();
 				} break;
-				
+
 				case 5:
 				{
 					DArr5();
 				} break;
-				
+
 				case 6:
 				{
 					DArr6();
 				} break;
-				
+
 				case 7:
 				{
 					DArr7();
 				} break;
-				/*
+
 				case 8:
 				{
 					DArr8();
-				} break;*/
+				} break;
 				}
 			}
 		}
+		break;
+
+		case 6:
+		{
+			GetMax();
+		}break;
+
+		case 0:
+		{
+			return -1;
+		} break;
 		}
 	}
 }
